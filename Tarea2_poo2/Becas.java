@@ -8,7 +8,7 @@ public class Becas{
     public Becas(){
         JFrame frame = new JFrame("Solicitud de Becas");
         
-        frame.setSize(600,400);
+        frame.setSize(650,400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
         frame.setLayout(new GridLayout(2,2));
@@ -56,7 +56,9 @@ public class Becas{
                 
             }
         });
-        String[] entidades = {"Eliige una opcion","Aguascalientes", "Baja California", "Baja California Sur"};
+        String[] entidades = {"Eliige una opcion","Aguascalientes", "Baja California", "Baja California Sur","Campeche","Chiapas","Chihuahua","Ciudad de Mexico","Coahuila","Colima",
+                            "Durango","Guanajuato","Guerrero","Hidalgo","Jaliico", "Estado de Mexico", "Michoacan", "Morelos", "Nayarit","Nuevo Leon","Oaxaca", "Puebla", "Queretaro",
+                            "Quintana Roo", "San Luis Potosi", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatan", "Zacatecas"};
         JComboBox<String> caja = new JComboBox<>(entidades);
         
         datos.add(new JLabel("Nombre:"));
