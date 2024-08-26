@@ -41,9 +41,6 @@ public class Becas{
             }
         });*/
         
-        
-        
-
         //panel2
         JPanel datos = new JPanel();
         datos.setBackground(Color.YELLOW);
