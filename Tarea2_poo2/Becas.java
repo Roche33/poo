@@ -8,14 +8,14 @@ public class Becas{
     public Becas(){
         JFrame frame = new JFrame("Solicitud de Becas");
         
-        frame.setSize(650,400);
+        frame.setSize(700,450);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
-        frame.setLayout(new GridLayout(2,2));
-
+        frame.setLayout(new GridLayout(2,2,5,5));
+        frame.getContentPane().setBackground(Color.BLACK);;
         //PANEL
         JPanel login = new JPanel(new GridLayout(4,2,0,5));
-        login.setBackground(Color.BLUE);
+        login.setBackground(Color.CYAN);
 
         login.add(new JLabel("Inicio de sesion"));
         login.add(new JLabel());
