@@ -111,6 +111,7 @@ public class Becas{
         servicios.add(internet);
         servicios.add(nodecir);
         JButton boton4 = new JButton("Enviar");
+        boton4.setMnemonic('E');
         servicios.add(boton4);
 
 
